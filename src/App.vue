@@ -18,6 +18,12 @@ Vue.use(VueResource)
 
 let bus = new Vue()
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('/service-worker.js')
+    .then(function () { console.log('Service Worker Registered') })
+}
+
 export default {
   name: 'app',
   data () {

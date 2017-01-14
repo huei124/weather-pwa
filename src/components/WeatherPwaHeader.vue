@@ -77,11 +77,11 @@ export default {
 }
 
 .header #butRefresh {
-  background: url(/static/images/ic_refresh_white_24px.svg) center center no-repeat;
+  background: url(/images/ic_refresh_white_24px.svg) center center no-repeat;
 }
 
 .header #butAdd {
-  background: url(/static/images/ic_add_white_24px.svg) center center no-repeat;
+  background: url(/images/ic_add_white_24px.svg) center center no-repeat;
 }
 
 .header__title {
